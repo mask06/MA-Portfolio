@@ -1,15 +1,15 @@
-﻿using System;
+﻿using MA_Portfolio.Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MA_Portfolio.Entities
+namespace MA_Portfolio.Entities.Concrete
 {
-    public class Admin
+    public class Admin : BaseEntity
     {
-        public int Id { get; set; }
 
         [Required]
         public string UserName { get; set; }
