@@ -1,9 +1,14 @@
-﻿using MA_Portfolio.Entities.Abstract;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace MA_Portfolio.Entities.Concrete
+namespace MA_Portfolio.DTOs.Concrete.ExperienceDTOs
 {
-    public class Experience : BaseEntity
+    public class ExperienceCreateDTO
     {
+        public int Id { get; set; }
         public string JobTitle { get; set; }
         public string CompanyName { get; set; }
         public string Description { get; set; }

@@ -7,4 +7,10 @@
     <RootNamespace>MA_Portfolio.MVC</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MA-Portfolio.BLL\MA-Portfolio.BLL.csproj" />
+    <ProjectReference Include="..\MA-Portfolio.Common\MA-Portfolio.Common.csproj" />
+    <ProjectReference Include="..\MA-Portfolio.DTOs\MA-Portfolio.DTOs.csproj" />
+  </ItemGroup>
+
 </Project>

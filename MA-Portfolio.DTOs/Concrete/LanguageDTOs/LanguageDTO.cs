@@ -1,9 +1,9 @@
 ﻿using MA_Portfolio.Common.Enums;
-using MA_Portfolio.Entities.Abstract;
+using MA_Portfolio.DTOs.Abstract;
 
-namespace MA_Portfolio.Entities.Concrete
+namespace MA_Portfolio.DTOs.LanguageDTOs
 {
-    public class Language : BaseEntity
+    public class LanguageDTO : BaseDTO
     {
         public string Name { get; set; }
         public LanguageLevel Level { get; set; }

@@ -1,9 +1,9 @@
 ﻿using MA_Portfolio.Common.Enums;
-using MA_Portfolio.Entities.Abstract;
+using MA_Portfolio.DTOs.Abstract;
 
-namespace MA_Portfolio.Entities.Concrete
+namespace MA_Portfolio.DTOs.Concrete.InformationDTOs
 {
-    public class Information :BaseEntity
+    public class InformationDTO : BaseDTO
     {
         public string Name { get; set; }
         public string Surname { get; set; }
@@ -19,6 +19,5 @@ namespace MA_Portfolio.Entities.Concrete
         public string LinkedInUrl { get; set; }
         public string GitHubUrl { get; set; }
         public string MediumUrl { get; set; }
-
     }
 }

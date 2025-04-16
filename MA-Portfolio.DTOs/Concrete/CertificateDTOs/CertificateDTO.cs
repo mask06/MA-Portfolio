@@ -1,8 +1,9 @@
-﻿using MA_Portfolio.Entities.Abstract;
+﻿using MA_Portfolio.DTOs.Abstract;
 
-namespace MA_Portfolio.Entities.Concrete
+
+namespace MA_Portfolio.DTOs.Concrete.CertificateDTOs
 {
-    public class Certificate:BaseEntity
+    public class CertificateDTO : BaseDTO
     {
         public string Name { get; set; }
         public string Description { get; set; }

@@ -2,17 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>MA_Portfolio.Entities</RootNamespace>
+    <RootNamespace>MA_Portfolio.BLL</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+    <Folder Include="Service\Concrete\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\MA-Portfolio.Common\MA-Portfolio.Common.csproj" />
+    <ProjectReference Include="..\MA-Portfolio.DAL\MA-Portfolio.DAL.csproj" />
+    <ProjectReference Include="..\MA-Portfolio.DTOs\MA-Portfolio.DTOs.csproj" />
+    <ProjectReference Include="..\MA-Portfolio.Entities\MA-Portfolio.Entities.csproj" />
   </ItemGroup>
 
 </Project>

@@ -22,6 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MA-Portfolio.Common\MA-Portfolio.Common.csproj" />
+    <ProjectReference Include="..\MA-Portfolio.DTOs\MA-Portfolio.DTOs.csproj" />
     <ProjectReference Include="..\MA-Portfolio.Entities\MA-Portfolio.Entities.csproj" />
   </ItemGroup>
 

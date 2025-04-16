@@ -1,9 +1,14 @@
-﻿using MA_Portfolio.Entities.Abstract;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace MA_Portfolio.Entities.Concrete
+namespace MA_Portfolio.DTOs.Concrete.CertificateDTOs
 {
-    public class Certificate:BaseEntity
+    public class CertificateUpdateDTO
     {
+        public int Id { get; set; } // Id'yi DTO'da tutmak mantıklı değil ama Entity'den gelen bir DTO olduğu için burada tutuyoruz.
         public string Name { get; set; }
         public string Description { get; set; }
         public string InstitutionName { get; set; }

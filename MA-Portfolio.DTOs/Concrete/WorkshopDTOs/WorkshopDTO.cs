@@ -1,8 +1,8 @@
-﻿using MA_Portfolio.Entities.Abstract;
+﻿using MA_Portfolio.DTOs.Abstract;
 
-namespace MA_Portfolio.Entities.Concrete
+namespace MA_Portfolio.DTOs.Concrete.WorkshopDTOs
 {
-    public class Workshop : BaseEntity
+    public class WorkshopDTO : BaseDTO
     {
         public string Name { get; set; }
         public string Description { get; set; }

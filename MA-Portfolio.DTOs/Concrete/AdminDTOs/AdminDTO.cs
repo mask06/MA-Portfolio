@@ -1,15 +1,13 @@
-﻿using MA_Portfolio.Entities.Abstract;
+﻿using MA_Portfolio.DTOs.Abstract;
 using System.ComponentModel.DataAnnotations;
 
-namespace MA_Portfolio.Entities.Concrete
+namespace MA_Portfolio.DTOs.Concrete.AdminDTOs
 {
-    public class Admin : BaseEntity
+    public class AdminDTO : BaseDTO
     {
-
         [Required]
         public string UserName { get; set; }
         [Required]
         public string PasswordHash { get; set; }
-
     }
 }

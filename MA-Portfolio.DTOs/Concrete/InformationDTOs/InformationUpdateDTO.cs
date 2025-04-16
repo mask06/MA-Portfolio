@@ -1,10 +1,15 @@
 ﻿using MA_Portfolio.Common.Enums;
-using MA_Portfolio.Entities.Abstract;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace MA_Portfolio.Entities.Concrete
+namespace MA_Portfolio.DTOs.Concrete.InformationDTOs
 {
-    public class Information :BaseEntity
+    public class InformationUpdateDTO
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string PhoneNumber { get; set; }
@@ -19,6 +24,5 @@ namespace MA_Portfolio.Entities.Concrete
         public string LinkedInUrl { get; set; }
         public string GitHubUrl { get; set; }
         public string MediumUrl { get; set; }
-
     }
 }

@@ -1,8 +1,8 @@
-﻿using MA_Portfolio.Entities.Abstract;
+﻿using MA_Portfolio.DTOs.Abstract;
 
-namespace MA_Portfolio.Entities.Concrete
+namespace MA_Portfolio.DTOs.Concrete.ExperienceDTOs
 {
-    public class Experience : BaseEntity
+    public class ExperienceDTO : BaseDTO
     {
         public string JobTitle { get; set; }
         public string CompanyName { get; set; }

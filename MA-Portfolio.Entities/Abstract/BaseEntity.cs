@@ -1,6 +1,4 @@
-﻿
-
-namespace MA_Portfolio.Entities.Abstract
+﻿namespace MA_Portfolio.Entities.Abstract
 {
     public abstract class BaseEntity
     {
