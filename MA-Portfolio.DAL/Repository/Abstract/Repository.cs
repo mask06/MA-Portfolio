@@ -36,9 +36,13 @@ namespace MA_Portfolio.DAL.Repository.Abstract
         }
         public virtual async Task<TEntity> AddAsync(TEntity entity)
         {
-            var entry = await _entities.AddAsync(entity);
-
-            return entry.Entity;
+            if (entity is not null)
+            {
+                var entry = await _entities.AddAsync(entity);
+                entity.CreatedDate = DateTime.Now;
+                return entry.Entity;
+            }
+            return null;
         }
         public virtual Task<TEntity> Update(TEntity entity)
         {

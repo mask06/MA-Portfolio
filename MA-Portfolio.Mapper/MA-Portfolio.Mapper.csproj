@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>MA_Portfolio.Mapper</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MA-Portfolio.DTOs\MA-Portfolio.DTOs.csproj" />
+    <ProjectReference Include="..\MA-Portfolio.Entities\MA-Portfolio.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -27,6 +27,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MA-Portfolio.BLL", "MA-Port
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MA-Portfolio.BLL", "MA-Portfolio.BLL\MA-Portfolio.BLL.csproj", "{6223D3C5-43F5-4194-AEEE-6B8D3762030C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MA-Portfolio.Mapper", "MA-Portfolio.Mapper", "{9050F0AE-A6D5-4F53-8DCC-0C0431F73DD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MA-Portfolio.Mapper", "MA-Portfolio.Mapper\MA-Portfolio.Mapper.csproj", "{6DE24261-CAFC-4457-B25D-7C18CE1C5595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{6223D3C5-43F5-4194-AEEE-6B8D3762030C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6223D3C5-43F5-4194-AEEE-6B8D3762030C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6223D3C5-43F5-4194-AEEE-6B8D3762030C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE24261-CAFC-4457-B25D-7C18CE1C5595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE24261-CAFC-4457-B25D-7C18CE1C5595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE24261-CAFC-4457-B25D-7C18CE1C5595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE24261-CAFC-4457-B25D-7C18CE1C5595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +79,7 @@ Global
 		{E6866361-5250-46CF-A97F-5F40A0DDF9A0} = {A95553C2-17E7-45ED-92CD-23839A5C7DC7}
 		{9494C95A-AB04-4A03-80B1-AABDE6644508} = {2BC122B5-83A8-4EA7-A720-41054F02A787}
 		{6223D3C5-43F5-4194-AEEE-6B8D3762030C} = {1ED22B36-D203-4F8F-93E9-9B9E8141C6D4}
+		{6DE24261-CAFC-4457-B25D-7C18CE1C5595} = {9050F0AE-A6D5-4F53-8DCC-0C0431F73DD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1588864-049D-4518-91A5-610D7FF11402}

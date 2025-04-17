@@ -32,6 +32,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MA-Portfolio.BLL\MA-Portfolio.BLL.csproj" />
     <ProjectReference Include="..\MA-Portfolio.Common\MA-Portfolio.Common.csproj" />
+    <ProjectReference Include="..\MA-Portfolio.DAL\MA-Portfolio.DAL.csproj" />
     <ProjectReference Include="..\MA-Portfolio.DTOs\MA-Portfolio.DTOs.csproj" />
   </ItemGroup>
 
